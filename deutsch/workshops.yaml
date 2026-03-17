@@ -1,0 +1,8 @@
+workshops:
+  - folder: spanisch
+    code: es-ES
+    title: "Spanisch"
+    description: "10 Lektionen zum Erlernen der wichtigsten Wörter und Ausdrücke auf Spanisch."
+    color: "35 90% 93%"
+    primaryColor: "35 90% 45%"
+    image: "spanisch/thumbnail.svg"

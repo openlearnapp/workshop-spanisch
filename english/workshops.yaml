@@ -1,0 +1,8 @@
+workshops:
+  - folder: spanish
+    code: es-ES
+    title: "Spanish"
+    description: "10 lessons to learn the most important words and expressions in Spanish."
+    color: "35 90% 93%"
+    primaryColor: "35 90% 45%"
+    image: "spanish/thumbnail.svg"
