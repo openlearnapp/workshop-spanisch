@@ -1,0 +1,8 @@
+workshops:
+  - folder: spanisch
+    code: es-ES
+    title: "الإسبانية"
+    description: "١٠ دروس لتعلم أهم الكلمات والتعبيرات باللغة الإسبانية."
+    color: "35 90% 93%"
+    primaryColor: "35 90% 45%"
+    image: "spanisch/thumbnail.svg"
