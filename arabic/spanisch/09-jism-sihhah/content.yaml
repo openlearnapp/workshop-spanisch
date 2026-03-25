@@ -1,0 +1,104 @@
+version: 1
+number: 9
+title: "الجسم والصحة"
+description: "أعضاء الجسم وزيارة الطبيب وتعبيرات صحية باللغة الإسبانية"
+sections:
+  - title: "أعضاء الجسم"
+    explanation: |
+      **أعضاء الجسم** في الإسبانية تُستخدم غالباً مع أداة التعريف
+      وليس مع ضمير الملكية. يُقال «me duele la cabeza» (يؤلمني رأسي)
+      وليس «mi cabeza». هذا ينطبق خاصة على الألم والحالات الجسدية.
+    examples:
+      - q: "la cabeza"
+        a: "الرأس"
+        rel:
+          - ["cabeza", "رأس", "اسم، مؤنث"]
+      - q: "los ojos"
+        a: "العيون"
+        rel:
+          - ["ojos", "عيون", "اسم، مذكر جمع"]
+      - q: "la nariz"
+        a: "الأنف"
+        rel:
+          - ["nariz", "أنف", "اسم، مؤنث"]
+      - q: "la boca"
+        a: "الفم"
+        rel:
+          - ["boca", "فم", "اسم، مؤنث"]
+      - q: "el brazo"
+        a: "الذراع"
+        rel:
+          - ["brazo", "ذراع", "اسم، مذكر"]
+      - q: "la mano"
+        a: "اليد"
+        rel:
+          - ["mano", "يد", "اسم، مؤنث (شاذ!)"]
+      - q: "la pierna"
+        a: "الساق"
+        rel:
+          - ["pierna", "ساق", "اسم، مؤنث"]
+      - q: "el pie"
+        a: "القدم"
+        rel:
+          - ["pie", "قدم", "اسم، مذكر"]
+  - title: "عند الطبيب"
+    explanation: |
+      **عند الطبيب** من المهم أن تصف شكواك بوضوح.
+      «Me duele + عضو الجسم» تعني «يؤلمني...».
+      «Estar enfermo/a» تعني أن تكون مريضاً – يُستخدم «estar» وليس «ser».
+    examples:
+      - q: "Me duele..."
+        a: "يؤلمني..."
+        rel:
+          - ["me", "لي", "مفعول غير مباشر"]
+          - ["duele", "يؤلم", "فعل doler، الغائب"]
+      - q: "Estoy enfermo / enferma"
+        a: "أنا مريض / مريضة"
+        rel:
+          - ["estoy", "أنا أكون (الآن)", "فعل estar، المتكلم"]
+          - ["enfermo", "مريض (مذكر)", "صفة"]
+          - ["enferma", "مريضة (مؤنث)", "صفة"]
+      - q: "Tengo fiebre"
+        a: "عندي حمّى"
+        rel:
+          - ["tengo", "عندي", "فعل tener، المتكلم"]
+          - ["fiebre", "حمّى", "اسم، مؤنث"]
+      - q: "Necesito un médico"
+        a: "أحتاج طبيباً"
+        rel:
+          - ["necesito", "أحتاج", "فعل necesitar، المتكلم"]
+          - ["médico", "طبيب", "اسم، مذكر"]
+      - q: "la farmacia"
+        a: "الصيدلية"
+        rel:
+          - ["farmacia", "صيدلية", "اسم، مؤنث"]
+  - title: "الصحة"
+    explanation: |
+      **تعبيرات الصحة** تساعد في وصف الحالة.
+      «¿Cómo te encuentras?» طريقة حنونة للسؤال عن حال شخص.
+      الفرق: «sentirse» (يشعر) للحالات الجسدية والعاطفية.
+    examples:
+      - q: "¿Cómo te encuentras?"
+        a: "كيف تشعر؟"
+        rel:
+          - ["te", "نفسك", "ضمير انعكاسي، المخاطب"]
+          - ["encuentras", "تجد نفسك / تشعر", "فعل encontrarse"]
+      - q: "Me siento bien"
+        a: "أشعر بخير"
+        rel:
+          - ["me siento", "أشعر", "فعل sentirse، المتكلم"]
+          - ["bien", "جيد / بخير", "ظرف"]
+      - q: "Me siento mal"
+        a: "أشعر بسوء"
+        rel:
+          - ["me siento", "أشعر", "فعل sentirse، المتكلم"]
+          - ["mal", "سيئ", "ظرف"]
+      - q: "Tengo alergia"
+        a: "عندي حساسية"
+        rel:
+          - ["tengo", "عندي", "فعل tener، المتكلم"]
+          - ["alergia", "حساسية", "اسم، مؤنث"]
+      - q: "el hospital"
+        a: "المستشفى"
+        rel:
+          - ["hospital", "مستشفى", "اسم، مذكر"]
